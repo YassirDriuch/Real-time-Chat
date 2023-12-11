@@ -1,0 +1,61 @@
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: #3E4043;
+}
+
+#input-chat {
+    position: fixed;
+    display: flex;
+    height: 7.5vh;
+    width: 100vw;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    width: 100vw;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1em 2em;
+}
+
+hr {
+    width: 95%;
+    border-top: 1px solid #bbb;
+    border-radius: 0.4px;
+    clear: right;
+}
+
+input {
+    flex: 15 1 auto;
+    font-size: 1.25rem;
+    border: none;
+    background-color: #e7e7e7;
+    padding: 1em 2em;
+}
+
+button {
+    position: relative;
+    width: 1em;
+    height: 100%;
+    flex: 1 1 auto;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+    padding: 0;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
