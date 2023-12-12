@@ -16,8 +16,10 @@
 }
 
 #messages {
+    height: calc(100vh - 7.5vh);
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 .message {
